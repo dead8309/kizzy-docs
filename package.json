@@ -1,0 +1,30 @@
+{
+  "name": "kizzy-docs",
+  "version": "1.0.0",
+  "description": "Kizzy docs",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dead8309/kizzy-docs"
+  },
+  "author": "dead8309",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.0.6",
+    "nextra": "2.0.1",
+    "nextra-theme-docs": "2.0.1",
+    "postcss": "^8.4.20",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "autoprefixer": "^10.4.13",
+    "typescript": "^4.9.3"
+  }
+}
