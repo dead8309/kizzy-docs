@@ -1,5 +1,8 @@
 {
   "index": "Introduction",
   "quickstart": "Quickstart",
-  "rpc": "Rich Presence"
+  "rpc": "How to make Rich Presence",
+  "custom_rpc": "Custom Rpc Features",
+  "display": "Language & Display",
+  "rpcSettings": "Rpc Settings"
 }
