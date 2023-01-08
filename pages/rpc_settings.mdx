@@ -1,0 +1,79 @@
+import { Card, Cards } from "@components/cards"
+import { Callout } from "nextra-theme-docs"
+
+# Rpc Settings
+
+#### There are two types of settings
+<Cards>
+<Card
+    title="General"
+    href="#general-settings"
+/>
+<Card
+    title="Advanced"
+    href="#advanced-settings"
+/>
+</Cards>
+
+## General Settings
+
+- ### Use Custom Buttons
+  This setting allows the user to set pre-defined buttons for `Media Rpc` & ` App Detection`
+
+  #### How to use Custom Buttons ?
+  <div className="steps-container">
+  ### Open Rpc Settings
+  Click on menu icon in home screen and select `Rpc Settings` from navigation drawer.
+
+  ### Enable Custom Buttons
+  - Enable `Use Custom Buttons`
+  - After enabling the above option a new option will appear on screen(`Rpc Buttons`).
+
+
+  ### Fill Details
+  - Click on `Rpc Buttons`
+  - A pop-up will appear, fill Button text and url
+  - Click on `Save`
+
+  </div>
+
+- ### Custom Activity Type
+  This setting allows the user to override the default activity type(*Playing*) for `Media & Experimental Rpc`
+
+
+  #### How to set Custom Activity Type ?
+  <div className="steps-container">
+  ### Open Rpc Settings
+  Click on menu icon in home screen and select `Rpc Settings` from navigation drawer.
+
+  ### Fill Details
+  - Click on `Custom Activity Type`
+  - A pop-up will appear, enter [activity type](/rpc/custom#activity-types) value
+  - Click on `Save`
+
+  </div>
+
+## Advanced Settings
+
+- ### Use Low Resolution Image
+  This setting allows the user to use lower resolution icon of an app for Rpc images. 
+  - This can be useful if the user is experiencing crashing issues with their Rpc.
+  <Callout type="warning">
+  Please note that using a lower resolution image may result in a less clear or detailed display on the Rpc, but may improve the stability of the Rpc.
+
+  It's up to the user to decide whether the trade-off is worth it for their specific use case.
+  </Callout>
+
+- ### Delete Saved Icon Links
+  This setting allows the user to delete any saved app icon URL(s) stored in the local files. 
+
+  <Callout type="error">
+  - Using this feature may result in increased data usage as all images will be uploaded again.
+  - This option should only be used in rare cases.
+  </Callout>
+
+- ### Show Logs
+  <Callout type="info">
+  This setting is only avaliable for Debug builds of the app. You can download debug builds under [Actions Tab](https://github.com/dead8309/Kizzy/actions).
+  </Callout>
+  This setting is useful when you want to debug the connection logs.
