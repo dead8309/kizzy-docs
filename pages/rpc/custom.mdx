@@ -1,0 +1,58 @@
+import { Video } from "@components/video"
+
+# Enabling Custom Rpc
+
+Kizzy allows you to create your own fully customisable rich presence for Discord. To enable Custom Rpc in Kizzy, follow these steps:
+
+<div className="steps-container">
+### Open Kizzy
+Open the Kizzy app on your device.
+
+### Go to Custom Rpc
+Click on the `Custom Rpc` card.
+
+### Fill in Text Fields
+Fill in the text fields you wish to use. Here's a brief [description](#text-fields) of all text-fields with their default value.
+
+### Enable Custom Rpc
+Click on `Enable Custom Rpc`.
+
+### All Done!
+
+The Custom Rpc will now be displayed on Discord.
+
+</div>
+
+### Text Fields
+| Option | Description | Default Value |
+| --- | --- | --- |
+| Activity Name | The name of the activity that will be displayed on Discord. | |
+| Activity Details | Additional details about the activity that will be displayed on Discord. | |
+| Activity State | The current state of the activity, such as party count, lobby status. | |
+| Start Timestamps | The time when the activity began. | |
+| Stop Timestamps | The time when the activity ended. | |
+| Activity Status | The current status of the activity, such as `online`,`idle`,`dnd`. | online |
+| Activity Button 1 Text | The text that will be displayed on the first button. | |
+| Activity Button 1 URL | The URL that will be opened when the first button is clicked. | |
+| Activity Button 2 Text | The text that will be displayed on the second button. | |
+| Activity Button 2 URL | The URL that will be opened when the second button is clicked. | |
+| Activity Large Image | The link of an image that will be displayed as the large image on Discord. | |
+| Activity Large Image Text | The text that will be displayed when hovering over the large image. | |
+| Activity Small Image | The link of an image file that will be displayed as the small image on Discord. | |
+| Activity Small Image Text | The text that will be displayed when hovering over the small image. | |
+| Activity Type | The type of activity that is being performed. See avaliable [activity types](#activity-types) | 0 |
+
+
+### Activity Types
+| Activity Type | Value |
+| --- | --- |
+| Playing | 0 |
+| Streaming | 1 |
+| Listening | 2 |
+| Watching | 3 |
+| Competing | 5 |
+
+
+By following these steps, you can easily create your own custom rich presence on Discord using Kizzy.
+
+<Video url="/rpc/custom-rpc.gif"/>

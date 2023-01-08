@@ -1,0 +1,34 @@
+# Enabling App Detection RPC
+import { Callout } from "nextra-theme-docs";
+import { Video } from "@components/video";
+
+
+Kizzy allows you to share your current activity on Discord by detecting what app you're using on your device. Here's a step-by-step guide on how to enable app detection RPC in Kizzy:
+
+<div className="steps-container">
+### Open App Detection 
+Open the Kizzy app on your device then click on the `App Detection` card.
+
+### Select an App 
+You will see a list of installed apps on your device. To enable app detection for a particular `app`, flip the switch next to its name.
+
+### Enable App Detection
+Scroll to the top of the screen and click on the `Enable App Detection`.
+
+### Open your app 
+Now Open the `app` that you have just enabled.
+### RPC Activated 
+Your `app's` rich presence will now appear on Discord as long as you use the `app`.
+
+</div>
+<Callout type='info'>
+Please note that App Detection will not work for the following apps:
+
+1. `Discord`: This is to allow users to use Discord and other apps simultaneously or use splitscreen to check if the RPC is working correctly.
+
+2. `Kizzy`: This is to prevent Kizzy from always setting itself as the current running app.
+
+</Callout>
+By following these steps, you can easily share your current app activity on Discord using Kizzy.
+
+<Video url="/rpc/apps-rpc.gif"/>

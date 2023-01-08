@@ -1,0 +1,8 @@
+{
+  "app": "App Detection",
+  "media": "Media Rpc",
+  "custom": "Custom Rpc",
+  "console": "Console Rpc",
+  "experimental": "Experimental Rpc"
+
+}

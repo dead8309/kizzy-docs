@@ -1,0 +1,46 @@
+import { Callout } from "nextra-theme-docs";
+import { Video } from "@components/video"
+
+# Enabling Media RPC
+
+Kizzy allows you to share your current media activity on Discord, such as the song or video you're currently listening to or watching. To enable Media RPC in Kizzy, follow these steps:
+
+<div className="steps-container">
+### Open Media RPC
+Open the Kizzy app on your device then click on the `Media Rpc` card.
+
+### Enable Options
+
+- You will see the following options:
+
+| Option | Description |
+| --- | --- |
+| Enable Artist Name | This will add the artist name of the current playing media to the RPC |
+| Show App Icon | This will show the icon of the app of your currently being played media |
+| Enable Timestamps | This shows for how long you have been using the Media RPC |
+
+- Enable the options that you wish to use.
+
+### Enable Media RPC ##
+
+Click on `Enable Media Rpc`.
+
+### RPC Activated 
+
+Now whenever you play a song or watch a video, it will be displayed on Discord through the Media RPC.
+
+</div>
+
+<Callout type="info">
+The `large image` in the Rpc is determined as follows:
+
+- If there is a thumbnail art in the [media controller](https://developer.android.com/static/images/about/versions/11/media-controls.png) ,Kizzy will automatically set it as the `large image` in the RPC.
+- If there is no thumbnail art in the [media controller](https://developer.android.com/static/images/about/versions/11/media-controls.png), Kizzy will use the **icon of the app** that is currently playing media as the `large image` in the RPC.
+
+</Callout>
+
+
+By following these steps, you can easily share your current media activity on Discord using Kizzy.
+
+<Video url="/rpc/media-rpc.gif"/>
+
