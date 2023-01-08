@@ -1,0 +1,143 @@
+import { Card , Cards } from "@components/cards"
+import { Callout } from "nextra-theme-docs"
+
+# Customize Your Discord Activity
+
+### Custom Rpc has so many features such as
+<Cards>
+<Card
+    title="Upload Image"
+    href="#upload-image"
+    icon={
+      <span class="material-symbols-outlined">
+        image
+      </span>
+    }/>
+<Card
+    title="Load Config"
+    href="#load-config"
+    icon={
+        <span class="material-symbols-outlined">
+          file_open
+        </span>
+      }/>
+<Card
+    title="Save Config"
+    href="#save-config"
+    icon={
+        <span class="material-symbols-outlined">
+          save_as
+        </span>
+      }/>
+<Card
+    title="Delete Config"
+    href="#delete-config"
+    icon={
+        <span class="material-symbols-outlined">
+          delete
+        </span>
+      }/>
+<Card
+    title="Preview Rpc"
+    href="#preview-rpc"
+    icon={
+      <svg class="gameIcon-1mDo1J desaturate-_Twf3u medium-1vKkpm gameIcon-1siQqm" aria-hidden="false" width="24" height="24" viewBox="0 0 40 40"><g fill="none" fill-rule="evenodd"><path fill="white" fill-opacity=".8" d="M21.226 30v-4.154h-3.755V30h3.755zm-.512-8.62c3.67-1.337 5.718-2.959 5.718-6.145 0-3.272-2.36-5.235-6.088-5.235-2.589 0-4.637.825-6.344 2.048l.484 3.3c1.621-1.251 3.47-2.162 5.49-2.162 1.707 0 2.845.854 2.845 2.305 0 1.593-1.08 2.475-3.812 3.442l-.882.342.342 4.523 2.076-.455.171-1.963z"></path><rect width="38" height="38" x="1" y="1" stroke="white" stroke-opacity="1" stroke-width="2" rx="5"></rect><circle cx="7" cy="7" r="2" fill="white" fill-opacity="1"></circle><circle cx="7" cy="33" r="2" fill="white" fill-opacity="1"></circle><circle cx="33" cy="7" r="2" fill="white" fill-opacity="1"></circle><circle cx="33" cy="33" r="2" fill="white" fill-opacity="1"></circle></g></svg>
+    }
+/>
+</Cards>
+
+## Upload Image
+
+One of the great features of Kizzy is the ability to use your own images and GIFs as Rich Presence images. With this feature, you can easily choose any image or GIF from your device's gallery and use it as your Rich Presence image.
+
+#### To use this feature, simply follow these steps:
+<div className="steps-container">
+
+### Click on Gallery Icon
+Scroll down to `Acrivity Large/Small Image` and click on the tailing gallery icon.
+
+### Upload Image
+After clicking on gallery icon a pop-up will appear, Click on `Browse Files ↗` button
+
+### Select an Image
+Choose an image or GIF from your device's gallery.
+
+### Done
+The image or GIF will be automatically uploaded and set as your Rich Presence image.
+
+</div>
+
+## Load Config
+
+This feature allows you to access and load previously saved configs.
+
+#### To load a config:
+
+<div className="steps-container">
+
+### Click on **Load Config**
+
+### Select a Config
+A pop-up will appear, showing a list of all saved configs. Click on the config you want to load.
+
+### Done
+The config data will be automatically entered into the text fields.
+
+</div>
+
+
+## Save Config
+This feature allows you to save the current configuration of the Custom Rpc. This can be useful if you frequently use the same configuration for your Custom Rpc, as it allows you to quickly load it later without having to enter all the information again.
+
+#### To save a config:
+<div className="steps-container">
+
+### Click on **Save Config**
+
+### Config Name
+ A pop-up will appear, asking you to enter a name for the config. Enter a descriptive name and click `Save`.
+
+### Done
+The config will now be saved to your device's local storage and can be accessed later using the `Load Config` option.
+
+</div>
+
+## Delete Config
+
+This feature allows you to delete saved configs from your device's local storage.
+
+#### To delete a config:
+
+<div className="steps-container">
+### Click on **Delete Config**.
+
+### Select Configs
+A pop-up will appear, showing a list of all saved configs. Check all the configs you want to delete.
+
+### Delete
+Click on `Delete` to confirm.
+
+### Done
+The config will now be deleted from your device's local storage.
+
+</div>
+## Preview Rpc
+
+This feature allows you to preview your status before you send it, so you can check spelling, formatting, and how it looks with different images or text. This helps you ensure your status is accurate and polished before sharing it.
+
+<Callout type="info">
+**Limitations**
+- Timestamps are not included in Preview.
+- It is intended to give you an idea of how your Rpc will look on Discord, but it is not a guarantee of exactly how it will appear. 
+</Callout>
+
+*How the preview looks*
+<div style={{
+    display: "flex",
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: "0.50rem"}}>
+      <img
+        className='h-[calc(60vh/1.8)] max-h-[700px] lg:h-fit lg:max-h-fit'
+        src="/rpc/rpc-preview.png"/>
+</div>
