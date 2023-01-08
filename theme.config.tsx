@@ -7,11 +7,7 @@ export default {
   chat: {
     link: 'https://discord.gg/vUPc7zzpV5',
   },
-  docsRepositoryBase: 'https://github.com/dead8309/kizzy-docs',
-  head: (<>
- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-  </>
-  ),
+  docsRepositoryBase: 'https://github.com/dead8309/kizzy-docs', 
   logo: (
     <>
       <img width="32" height="32" src="./icon.png" style={{borderRadius: '8px'}}/>
