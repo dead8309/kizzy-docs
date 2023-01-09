@@ -1,6 +1,22 @@
+import { useRouter } from 'next/router'
 import React from 'react'
 
-export default { 
+export default {
+  useNextSeoProps() {
+    const { route } = useRouter()
+    if (route !== '/') {
+      return {
+        titleTemplate: '%s – Docs'
+      }
+    }
+  },
+  head: (<>
+    <link rel='shortcut icon' href='/icon.png' />
+    <meta
+      property='og:description'
+      content="Welcome to the Kizzy documentation site! Here you'll find comprehensive guides and documentation to help you get started with the Kizzy app, as well as troubleshooting resources and reference materials. Explore the various sections of the site to learn more about the features and functionality of the Kizzy app."
+    />
+  </>),
   project: {
     link: 'https://github.com/dead8309/Kizzy',
   },
