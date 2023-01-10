@@ -6,7 +6,7 @@ const description =
   "Welcome to the Kizzy documentation site! Here you'll find comprehensive guides and documentation to help you get started with the Kizzy app, as well as troubleshooting resources and reference materials. Explore the various sections of the site to learn more about the features and functionality of the Kizzy app.";
 
 const ogImageApi = (title: string) =>
-  `https://docs-dead8309.vercel.app/api/og?title=${title}`;
+  `https://kizzydocs.vercel.app/api/og?title=${title}`;
 
 export default {
   useNextSeoProps() {
