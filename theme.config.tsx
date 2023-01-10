@@ -34,10 +34,14 @@ export default {
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
+        
+        <meta name="og:site_name" content="Kizzy Docs"/>
+        <meta property="og:type" content="website" />
+
         <meta name="twitter:site" content="Kizzy Docs" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
-        <meta name="twitter:card" content={title} />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image:src" content={ogImageApi(title)} />
       </>
     );
