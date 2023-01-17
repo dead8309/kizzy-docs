@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import { useConfig } from "nextra-theme-docs";
 import React from "react";
+import { Logo } from "@components/logo"
 
 const description =
   "Welcome to the Kizzy documentation site! Here you'll find comprehensive guides and documentation to help you get started with the Kizzy app, as well as troubleshooting resources and reference materials. Explore the various sections of the site to learn more about the features and functionality of the Kizzy app.";
@@ -55,12 +56,7 @@ export default {
   docsRepositoryBase: "https://github.com/dead8309/kizzy-docs",
   logo: (
     <>
-      <img
-        width="32"
-        height="32"
-        src="./icon.png"
-        style={{ borderRadius: "8px" }}
-      />
+     <Logo/>
       <span style={{ marginLeft: ".4em", fontWeight: 600, fontSize: "150%" }}>
         Kizzy
       </span>
