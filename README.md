@@ -1,7 +1,6 @@
-<div align="center"
-<img 
+<div align="center">
 
-src="https://kizzydocs.vercel.app/api/og?title=Welcome+to+Kizzy+Documentation">
+<img src="https://kizzydocs.vercel.app/api/og?title=Welcome+to+Kizzy+Documentation">
 </div>
 
 # Documentation for [Kizzy](https://github.com/dead8309/Kizzy) App
